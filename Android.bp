@@ -304,6 +304,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "IWlanService",
+	owner: "google",
+	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "EuiccSupportPixel",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",

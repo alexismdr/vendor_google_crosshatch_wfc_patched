@@ -288,6 +288,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.google.android.wfcactivation.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.wfcactivation.xml \
+    vendor/google/crosshatch/proprietary/product/etc/permissions/vendor.qti.iwlan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.iwlan.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.services.xml \
     vendor/google/crosshatch/proprietary/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml \
@@ -424,6 +425,7 @@ PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
     OemDmTrigger \
     WfcActivation \
+    IWlanService \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     QtiTelephonyServicelibrary \
